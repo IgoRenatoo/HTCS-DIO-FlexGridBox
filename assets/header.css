@@ -9,9 +9,11 @@ header {
   gap: 30px;
   align-items: center;
   justify-content: center;
+  font-weight: 700;  
 }
 .youtube a {
   display: flex;
+  color: black;
   align-items: center;
   height: 1.5rem;
 }

@@ -2,9 +2,18 @@ nav {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  font-weight: 700;
+  gap: 0.8rem;
   line-height: 20px;
   font-size: 1rem;
   border: none;
 }
+button {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+ }
