@@ -1,12 +1,70 @@
 header {
   grid-area: header;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+.youtube {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.youtube a {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
 }
 .fieldSearch {
   display: flex;
+  height: 2rem;  
+  border: 1px solid rgb(204, 204, 204, 1);
+  border-radius: 5px;
+  overflow: hidden;
 }
-.search {
-  border: solid 2px 0 2px 2px black;
-  height: 30px;
+.fieldSearch input {
+  margin: 0px 10px;
+  width: 15rem;
+  border: none;
+  background-color: transparent; 
+}
+.fieldSearch input:focus {
+  border: none;
+  outline: none;
+}
+.fieldSearch button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #fff;
+  border-left: 1px solid rgb(180, 180, 180, 1);
+}
+.fieldSearch button:hover {
+  background-color: rgb(204, 204, 204, 1);
+}
+.fieldSearch button img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 5px;
+  background-color: transparent;    
+}
+.perfil {
+  display: flex;
+  height: 1.5rem;
+  gap: 30px;
+  height: 1.5rem
+}
+.perfil button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: transparent;
+}
+.perfil button:hover {
+  background-color: rgb(204, 204, 204, 1);
 }

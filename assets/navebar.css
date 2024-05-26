@@ -2,9 +2,9 @@ nav {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   gap: 1rem;
   font-weight: 700;
   line-height: 20px;
   font-size: 1rem;
+  border: none;
 }

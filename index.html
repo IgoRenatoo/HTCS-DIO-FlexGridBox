@@ -27,39 +27,50 @@
 </head>
 
 <body>
-
-
   <header>
-    <div>
-      <a href="https://www.youtube.com/channel/UCH00zm3cYCiPx0JkbsDtjEg" target="_blank">YouTube</a>
-    </div>
-    <div class="fieldSearch">
-      <input class="search" type="search" placeholder="Pesquise aqui seu vídeo">
-      <button class="search">
-        <img src="./assets/images/Search.png" width="25px" height="25px" alt="">
-      </button>
-    </div>
-    <div>
+    <div class="youtube">
+      <img src="./assets/images/Menu.png" title="Menu" width="25px" alt="Barra de menu">
       <a href="https://www.youtube.com/channel/UCH00zm3cYCiPx0JkbsDtjEg" target="_blank"><img
-          src="./assets/images/Image-Emily.png" alt="Foto da Emily!"></a>
-    </div>
-  </header>
-  <nav>
-    <a href="">Início</a>
-    <a href="">Explorar</a>
-    <a href="">Inscrições</a>
-    <a href="">YT Music</a>
-    <a href="">Vídeos que gostei</a>
-    <a href="">Assistir mais tarde</a>
-    <a href="">Downloads</a>
-    <a href="">Filmes</a>
-    <a href="">Aprender</a>
-    <a href="">Esportes</a>
+          src="./assets/images/FavIcon-Youtube.png" width="32px" alt="Acessar Youtube">YouTube</a>
+    </div> <!-- Link e Logo YouTube -->
 
-  </nav>
+    <div class="fieldSearch">
+      <input type="search" placeholder="Pesquisar">
+      <button onclick="Search()">
+        <img src="./assets/images/Search.png" title="Pesquisar" width="25px" alt="Campo de pesquisa">
+      </button>
+    </div> <!-- Campo de pesquisa topo da página -->
+
+    <div class="perfil">
+      <button onclick="Gravar()">
+        <img src="./assets/images/Filmadora.png" title="Gravar" width="30px" alt="Gravar tela">
+      </button>
+      <button onclick="Like()" title="Like">
+        <img id="sino" src="./assets/images/SinoNoLike.png" width="30px" alt="Sino para curtir">
+      </button>
+      <a href="https://www.youtube.com/channel/UCH00zm3cYCiPx0JkbsDtjEg" title="Emily" target="_blank"><img
+          src="./assets/images/Image-Emily.png" width="32px" alt="Foto da Emily!"></a>
+    </div> <!-- Perfil, like e criação de conteúdo -->
+  </header> <!-- Campo pesquisa e Perfil -->
+
+  <nav>
+    <button onclick="Alert()">Início</button>
+    <button onclick="Alert()">Explorar</button>
+    <button onclick="Alert()">Inscrições</button>
+    <button onclick="Alert()">YT Music</button>
+    <button onclick="Alert()">Vídeos que gostei</button>
+    <button onclick="Alert()">Assistir mais tarde</button>
+    <button onclick="Alert()">Downloads</button>
+    <button onclick="Alert()">Filmes</button>
+    <button onclick="Alert()">Aprender</button>
+    <button onclick="Alert()">Início</button>
+    <button onclick="Alert()">Esportes</button>
+    <button onclick="Alert()">Início</button>
+  </nav> <!-- Navegação lateral -->
+
   <main>
     <div>
-      <iframe src="https://watch.brplayer.site/watch?v=IAW4QS58" allowfullscreen frameborder="0"></iframe>
+      <iframe src="https://watch.brplayer.site/watch?v=IAW4QS58" allowfullscreen></iframe>
       <p>Episódio - 1</p>
     </div>
     <div>
@@ -90,7 +101,8 @@
       <iframe src="https://watch.brplayer.site/watch?v=QMO61UWJ" allowfullscreen frameborder="0"></iframe>
       <p>Episódio - 8</p>
     </div>
-  </main>
+  </main> <!-- Conteúdo principal - Vídeos -->
 </body>
+<script src="./header.js"></script>
 
 </html>
