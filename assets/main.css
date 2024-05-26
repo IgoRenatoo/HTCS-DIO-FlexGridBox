@@ -1,17 +1,12 @@
 main {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, 200px);
   gap: 20px;
   padding-right: 20px;
 }
-@media screen and (max-width: 500px){
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  div iframe {
-    width: 200px;
-  }
+
+iframe {
+  width: 100%;
 }

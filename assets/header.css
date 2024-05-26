@@ -19,20 +19,25 @@ header {
 }
 .fieldSearch {
   display: flex;
-  height: 2rem;  
+  height: 2.5rem;  
   border: 1px solid rgb(204, 204, 204, 1);
   border-radius: 5px;
   overflow: hidden;
 }
 .fieldSearch input {
   margin: 0px 10px;
-  width: 15rem;
+  width: 20rem;
   border: none;
   background-color: transparent; 
+  font-size: 20px;
 }
 .fieldSearch input:focus {
   border: none;
   outline: none;
+  font-size: 20px;
+}
+.fieldSearch input::placeholder {
+  font-size: 20px;
 }
 .fieldSearch button {
   display: flex;

@@ -9,9 +9,9 @@ function Gravar(){
 }
 function Like() {
   let sino = document.querySelector('#sino');
-  if(sino.src.includes('/assets/images/SinoNoLike.png')){
-    sino.src = '/assets/images/SinoLike.png'
+  if(sino.src.includes('/assets/images/header/SinoNoLike.png')){
+    sino.src = '/assets/images/header/SinoLike.png'
   } else {
-    sino.src = '/assets/images/SinoNoLike.png'
+    sino.src = '/assets/images/header/SinoNoLike.png'
   }
 };
