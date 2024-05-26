@@ -1,0 +1,22 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: grid;
+  margin-top: 10px;
+  padding: 5px;
+  gap: 20px;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1.5rem repeat(4, 1fr);
+  grid-template-areas:
+  "header header "
+  "nav main"
+  "nav main"
+  "nav main";
+}
